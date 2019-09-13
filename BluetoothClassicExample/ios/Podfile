@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'BluetoothClassicExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BluetoothClassicExample
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  
+  pod 'react-native-bluetooth-classic', :path => '../..' 
+
+  target 'BluetoothClassicExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'BluetoothClassicExample-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BluetoothClassicExample-tvOS
+
+  target 'BluetoothClassicExample-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

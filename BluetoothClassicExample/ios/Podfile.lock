@@ -1,0 +1,30 @@
+PODS:
+  - React (0.59.9):
+    - React/Core (= 0.59.9)
+  - react-native-bluetooth-classic (0.9.1):
+    - React
+  - React/Core (0.59.9):
+    - yoga (= 0.59.9.React)
+  - yoga (0.59.9.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - react-native-bluetooth-classic (from `../..`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-bluetooth-classic:
+    :path: "../.."
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
+  react-native-bluetooth-classic: 0a7a4e9ba841adf306c5cea051674d6ecf851472
+  yoga: 03ff42a6f223fb88deeaed60249020d80c3091ee
+
+PODFILE CHECKSUM: 4684b38bde99c2f272b39fcb7016ca8852f61377
+
+COCOAPODS: 1.7.5
